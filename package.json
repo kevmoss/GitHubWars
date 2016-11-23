@@ -1,0 +1,34 @@
+{
+  "name": "twitterWars",
+  "version": "1.0.0",
+  "description": "Using IBM Watson to see who's the best tweeter",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevmoss/twitterWars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "react": "^15.4.0",
+    "react-addons-css-transition-group": "^15.4.1",
+    "react-dom": "^15.4.0",
+    "react-router": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "html-webpack-plugin": "^2.24.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
